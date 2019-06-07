@@ -1,0 +1,62 @@
+.header_text_Add-to-cart:hover , .header_text_explore:hover{
+background: #094583;
+border: 1px solid #094583;
+transition: 0.2s;
+
+}
+.change:hover {
+	background: url(../img/ru.png);
+  border: 1px solid #094583;
+  transition: 0.2s;
+  border-radius: 50%;
+	
+	border: 1px solid #fff;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	border-radius: 50%;
+	padding: 15px 0 ;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+
+
+}
+.change_text:hover{
+	opacity: 0;
+	transition: 0.5s;
+}
+.blok1:hover , .blok2:hover , .blok3:hover{
+	transform:perspective(2000px) rotate(-10deg);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5); 
+	z-index: 1000;
+}
+.blok1:hover .img1{
+	transform: rotateY(-130deg);
+}
+.blok2:hover .img1{
+	transform: rotateY(-130deg);
+}
+.blok3:hover .img1{
+	transform: rotateY(-130deg);
+}
+
+
+.blok4:hover , .blok5:hover , .blok6:hover{
+	transform:perspective(2000px) rotate(-10deg);
+	box-shadow: inset 20px 0 50px rgba(0,0,0,0.5); 
+	z-index: 1000;
+}
+.blok4:hover .img1{
+	transform: rotateY(-130deg);
+}
+.blok5:hover .img1{
+	transform: rotateY(-130deg);
+}
+.blok6:hover .img1{
+	transform: rotateY(-130deg);
+}
+
+
+
+
